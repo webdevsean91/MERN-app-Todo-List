@@ -1,0 +1,28 @@
+body{
+  margin: 15px;
+}
+
+/* 
+    styles from Materialize CSS - Compiled and minified CSS
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google's icons for Material -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ */
+.center, .center-align {
+  text-align: center
+}
+
+.grey-text.text-darken-1 {
+  color: #757575 !important
+}
+
+.grey-text {
+  color: #757575 !important
+}
+
+nav .brand-logo.center {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}

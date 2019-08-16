@@ -1,0 +1,35 @@
+{
+  "name": "full_stack_task7_comp1_authentication",
+  "version": "1.0.0",
+  "description": "Hyperion Full Stack Web Developer Bootcamp - Full Stack - Task 7 - Authentication - Comp 1",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently 'npm run server' 'npm run client'",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "console-stamp": "^0.2.9",
+    "cookie-parser": "^1.4.4",
+    "cookie-session": "^1.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.7",
+    "mongoose-assert": "^1.0.2",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-simple-storage": "^1.4.1",
+    "validator": "^11.1.0"
+  }
+}
